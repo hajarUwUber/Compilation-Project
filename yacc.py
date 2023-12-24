@@ -1,5 +1,5 @@
 from ply import lex, yacc
-
+from proverbe import tokens
 # tokens = ('ISM_MAWSOL', 'FI3L1', '7ARF_JAR1', 'ISM_MAJROR', 'HAE','FI3L2','7ARF_JAR2')
 
 # # Define the regular expressions for each token
@@ -21,11 +21,11 @@ from ply import lex, yacc
 # # Build the lexer
 # lexer = lex.lex()
 
-tokens = ('ISM_MAWSOL', 'FI3L1', '7ARF_JAR1', 'ISM_MAJROR', 'HAE', 'FI3L2', '7ARF_JAR2', 'MOBTADA2', 'KHABAR', '7AL',
-          'FI3L3', 'MAF3OL_BIH', 'NA2IB_DARF', 'ISM_MAJROR2', 'FAE', 'FI3L4', 'FA3IL', 'FI3L5', 'YAE','ADAT_CHART')
+# tokens = ('ISM_MAWSOL', 'FI3L1', '7ARF_JAR1', 'ISM_MAJROR', 'HAE', 'FI3L2', '7ARF_JAR2', 'MOBTADA2', 'KHABAR', '7AL',
+#           'FI3L3', 'MAF3OL_BIH', 'NA2IB_DARF', 'ISM_MAJROR2', 'FAE', 'FI3L4', 'FA3IL', 'FI3L5', 'YAE','ADAT_CHART')
 
 
-# Define the regular expressions for each token
+# # Define the regular expressions for each token
 t_ISM_MAWSOL = r'من'
 t_FI3L1 = r'شب'
 t_7ARF_JAR1 = r'على'
